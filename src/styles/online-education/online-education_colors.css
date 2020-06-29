@@ -1,0 +1,41 @@
+.fa-user:before {
+    color: #59459C;
+}
+
+#header .header-active {
+    color: #59459C;
+}
+
+#banner-1 {
+    background-color: #E4F2F9;
+}
+
+#banner-1 span {
+    color: #59459C;
+}
+
+#buttom-banner {
+    color: white;
+    border-color: transparent;
+    background-color: #68BDD1;
+}
+
+#banner-3 {
+    background-color: #E4F2F9;
+}
+
+#banner-3 span {
+    color: #59459C;
+}
+
+.email {
+    border-color: #8585DD;
+}
+
+.footer-col-3 select {
+    border-color: #8585DD;
+}
+
+#footer {
+    background-color: #E4F2F9;
+}

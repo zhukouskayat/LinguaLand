@@ -1,0 +1,59 @@
+.fa-user:before {
+    color: #59459C;
+}
+
+#banner {
+    background-color: #E4F2F9;
+}
+
+#banner span {
+    color: #59459C;
+}
+
+#buttom-banner {
+    color: white;
+    border-color: transparent;
+    background-color: #68BDD1;
+}
+
+.fa-globe {
+    color: #68BDD1;
+}
+
+.fa-headset {
+    color: #59459C;
+}
+
+.fa-percent {
+    color: #B3B3F4;
+}
+
+.fa-dollar-sign {
+    color: #E0206E;
+}
+
+#book select {
+    border-color: #8585DD;
+}
+
+#buttom-book {
+    color: white;
+    border-color: transparent;
+    background-color: #68BDD1;
+}
+
+#info {
+    background-color: #E4F2F9;
+}
+
+.email {
+    border-color: #8585DD;
+}
+
+.footer-col-3 select {
+    border-color: #8585DD;
+}
+
+#footer {
+    background-color: #E4F2F9;
+}

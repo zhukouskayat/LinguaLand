@@ -1,0 +1,87 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.fa-user:before {
+    font-size: 20px;
+}
+
+#banner p:first-child {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#banner {
+    font-size: 20px;
+}
+
+#buttom-banner {
+    font-size: 20px;
+}
+
+#request p {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#request-row select,
+input,
+#education {
+    font-size: 14px;
+}
+
+#buttom-request {
+    font-size: 20px;
+}
+
+#info h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#info p
+#info ul {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+#subscribe p:first-child {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#subscribe p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.subscribe-col2 {
+    text-align: center;
+}
+
+.email {
+    font-size: 14px;
+}
+
+#footer {
+    font-size: 18px;
+}
+
+#footer p:first-child {
+    font-weight: bold;
+}
+
+#footer span {
+    font-size: 14px;
+}
+
+.footer-col-3 select {
+    font-size: 18px;
+}
