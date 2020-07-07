@@ -1,3 +1,7 @@
+#header a:hover {
+    color: #59459C;
+}
+
 #buttom-content:hover {
     background-color: #0e98af;
     cursor: pointer;
