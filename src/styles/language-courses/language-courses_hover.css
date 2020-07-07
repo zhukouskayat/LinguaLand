@@ -1,14 +1,19 @@
-#header a:hover {
-    color: #59459C;
-}
-
-#buttom-banner:hover {
+#buttom-content:hover {
     background-color: #0e98af;
-    cursor: pointer
+    cursor: pointer;
 }
 
-#buttom-book:hover {
+#buttom-content-item:hover {
     background-color: #0e98af;
-    cursor: pointer
+    cursor: pointer;
 }
 
+select,
+input {
+    cursor: pointer;
+}
+
+#buttom-item:hover {
+    border-color: #68BDD1;
+    cursor: pointer;
+}

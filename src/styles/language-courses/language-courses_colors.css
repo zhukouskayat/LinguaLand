@@ -6,6 +6,46 @@
     color: #59459C;
 }
 
+#content {
+    background-color: #E4F2F9;
+}
+
+select#sort {
+    border-color: #8585DD;
+}
+
+select.select-content {
+    border-color: #8585DD;
+}
+
+#buttom-content {
+    background-color: #68BDD1;
+    color: white;
+}
+
+#buttom-content-item {
+    background-color: #68BDD1;
+    color: white;
+}
+
+.item-1>span {
+    color: gray;
+}
+
+#content-left {
+    background-color: white;
+}
+
+.item {
+    background-color: white;
+}
+
+#buttom-item {
+    border-color: transparent;
+    background-color: white;
+    color: #68BDD1;
+}
+
 .email {
     border-color: #8585DD;
     color: gray;

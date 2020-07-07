@@ -8,6 +8,55 @@ body {
     color: black;
 }
 
+#content h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+select#sort {
+    font-size: 18px;
+}
+
+select.select-content {
+    font-size: 18px;
+}
+
+#content-left label {
+    font-size: 18px;
+}
+
+#buttom-content {
+    font-size: 20px;
+}
+
+.item-1>p:first-child,
+.item-2>p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-1>p,
+.item-2>p {
+    font-size: 18px;
+}
+
+.item-1>span {
+    font-size: 14px;
+}
+
+#buttom-content-item {
+    font-size: 20px;
+}
+
+#buttom-item {
+    font-size: 20px;
+}
+
+#content-left p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .fa-user:before {
     font-size: 20px;
 }
@@ -27,7 +76,7 @@ body {
 }
 
 .email {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #footer {
