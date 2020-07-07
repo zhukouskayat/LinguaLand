@@ -12,6 +12,67 @@ body {
     font-size: 20px;
 }
 
+#content-left-l p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#content>p:first-child{
+    font-weight: bold;
+font-size: 28px;
+}
+
+#content-left-l p,
+#content-left-l ol {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#buttom-item {
+    font-size: 20px;
+}
+
+.item1-course>span {
+    font-size: 18px;
+}
+
+.item1>span {
+    font-size: 18px;
+}
+
+.item1>form {
+    font-size: 18px;
+}
+
+#content-right-l>span:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#buttom-item1,
+#buttom-item-1-active,
+#buttom-item1-course,
+#buttom-item-1-course {
+    font-size: 18px;
+}
+
+#content-right-l>span {
+    font-size: 20px;
+}
+
+.select-content-right {
+    font-size: 18px;
+}
+
+#content-right-l>div>p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#buttom-content {
+    font-size: 20px;
+}
+
 #subscribe p:first-child {
     font-weight: bold;
     font-size: 28px;

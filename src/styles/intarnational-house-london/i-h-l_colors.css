@@ -6,6 +6,51 @@
     color: #59459C;
 }
 
+#content {
+    background-color: #E4F2F9
+}
+
+#buttom-item {
+    background-color: white;
+    color: #68BDD1;
+    border-color: transparent;
+}
+
+#content-right-l {
+    background-color: white;
+}
+
+.item1 {
+    background-color: white;
+    border-color: #8585DD;
+}
+
+.item1-course {
+    background-color: white;
+}
+
+.select-content-right {
+    border-color: #8585DD;
+}
+
+#buttom-item1,
+#buttom-item1-course,
+#buttom-item-1-course {
+    background-color: white;
+    color: #68BDD1;
+    border-color: #68BDD1;
+}
+
+#buttom-item-1-active {
+    color: white;
+    background-color: #68BDD1;
+}
+
+#buttom-content {
+    background-color: #68BDD1;
+    color: white
+}
+
 .email {
     border-color: #8585DD;
     color: gray;

@@ -1,3 +1,31 @@
 #header a:hover {
     color: #59459C;
 }
+
+#buttom-content:hover {
+    background-color: #0e98af;
+    cursor: pointer;
+}
+
+#buttom-item:hover {
+    border-color: #68BDD1;
+    cursor: pointer;
+}
+
+select {
+    cursor: pointer;
+}
+
+#buttom-item1:hover,
+#buttom-item1-course:hover,
+#buttom-item-1-course:hover {
+    background-color: #68BDD1;
+    color: white;
+    cursor: pointer;
+}
+
+#buttom-item-1-active:hover {
+    background-color: #0e98af;
+    cursor: pointer;
+}
+}
