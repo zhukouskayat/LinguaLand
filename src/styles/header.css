@@ -1,0 +1,55 @@
+/* Geometry */
+
+#logo-img {
+    height: 50px;
+    width: 55px;
+    margin: 10px 20px 10px 80px;
+}
+
+#header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#header a {
+    margin-left: 20px;
+}
+
+#header a:last-child {
+    margin: 0px 100px 0px auto;
+    padding: 0px 0px 0px 20px;
+}
+
+/* Colors */
+
+.fa-user {
+    color: #59459C;
+}
+
+#header .header-active {
+    color: #59459C;
+}
+
+/* Fonts */
+
+#header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+#header .fas {
+    font-size: 18px;
+}
+
+#header .header-active {
+    font-weight: 550;
+}
+
+/* Hover */
+
+#header a:hover {
+    color: #59459C;
+}
+

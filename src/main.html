@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles//main/mail_colors.css">
     <link rel="stylesheet" href="styles//main/main_fonts.css">
     <link rel="stylesheet" href="styles//main//main_hover.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/subscribe.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/reset.css">
     <title>LinguaLand</title>
 </head>
@@ -15,7 +19,7 @@
 <body>
 
     <div id="header">
-        <a href="main.html"><img src="../src/ill/logo.svg" alt="logo"></a>
+        <a href="main.html"><img id="logo-img" src="../src/ill/logo.svg" alt="logo"></a>
         <a href="language-courses.html">Language courses</a>
         <a href="higher-education.html">Higher Education</a>
         <a href="online-education.html">Online Education</a>
@@ -24,125 +28,132 @@
 
     <div id="content">
         <div id="banner">
-            <div class="banner-col1">
-                <p>
+            <div id="banner-text">
+                <h1>
                     Learn English without leaving home!
-                </p>
+                </h1>
                 <p>
                     Self-isolation is a worthy cause to get ready for the next trip abroad.
                 </p>
                 <p>
                     Improve your English language level with <span>LinguaLand.com</span>
                 </p>
-                <input type="submit" value="Learn more" id="buttom-banner">
+                <form method="post">
+                    <button>
+                        Learn more
+                    </button>
+                </form>
             </div>
-            <div class="banner-col2">
-                <img src="ill/main-banner-01.svg" alt="banner illustration" class="banner-ill">
+            <div>
+                <img id="banner-ill" src="ill/main-banner-01.svg" alt="banner illustration">
             </div>
         </div>
 
         <div id="book">
-            <p>
+            <h1>
                 Search and book English courses abroad!
-            </p>
-            <div id="select-input-book">
-                    <select name="language" id="language">
-                        <option selected value="English">English</option>
-                        <option value="Spanish">Spanish</option>
-                        <option value="Italian">Italian</option>
-                        <option value="French">French</option>
-                        <option value="German">German</option>
-                    </select>
-                    <select name="weeks" id="weeks">
-                        <option selected value="2 weeks">For 2 weeks</option>
-                        <option selected value="3 weeks">For 3 weeks</option>
-                        <option selected value="4 weeks">For 4 weeks</option>
-                        <option selected value="5 weeks">For 5 weeks</option>
-                        <option selected value="6 weeks">For 6 weeks</option>
-                        <option selected value="3 months">For 3 months</option>
-                        <option selected value="4 months">For 4 months</option>
-                        <option selected value="5 months">For 5 months</option>
-                        <option selected value="6 months">For 6 months</option>
-                        <option selected value="1 year">For 1 year</option>
-                    </select>
-                    <select name="where" id="where">
-                        <option selected value="Anywhere">Anywhere</option>
-                        <option value="United Kingdom">United Kingdom</option>
-                        <option value="United States">United States</option>
-                        <option value="Malta">Malta</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Ireland">Ireland</option>
-                        <option value="Australia">Australia</option>
-                    </select>
-                    <input type="submit" value="Search" id="buttom-book">
-            </div>
-            <div class="book-text-col">
+            </h1>
+            <form method="POST">
+                <select name="language">
+                    <option selected value="English">English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Italian">Italian</option>
+                    <option value="French">French</option>
+                    <option value="German">German</option>
+                </select>
+                <select name="weeks">
+                    <option selected value="2 weeks">For 2 weeks</option>
+                    <option selected value="3 weeks">For 3 weeks</option>
+                    <option selected value="4 weeks">For 4 weeks</option>
+                    <option selected value="5 weeks">For 5 weeks</option>
+                    <option selected value="6 weeks">For 6 weeks</option>
+                    <option selected value="3 months">For 3 months</option>
+                    <option selected value="4 months">For 4 months</option>
+                    <option selected value="5 months">For 5 months</option>
+                    <option selected value="6 months">For 6 months</option>
+                    <option selected value="1 year">For 1 year</option>
+                </select>
+                <select name="where">
+                    <option selected value="Anywhere">Anywhere</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Australia">Australia</option>
+                </select>
+                <button>Search</button>
+            </form>
+            <div class="book-text">
                 <div class="book-text-col1">
-                    <span>
+                    <p>
                         <i class="fas fa-globe"></i>
                         Over 2,500 language courses worldwide
-                    </span>
-                    <span>
+                    </p>
+                    <p>
                         <i class="fas fa-percent"></i>
                         Our prices are lower than booking with schools directly
-                    </span>
+                    </p>
                 </div>
                 <div class="book-text-col2">
-                    <span>
+                    <p>
                         <i class="fas fa-headset"></i>
                         We provide visa assistance and personal consultations
-                    </span>
-                    <span>
+                    </p>
+                    <p>
                         <i class="fas fa-dollar-sign"></i>
                         Your deposit is returned in case of visa rejection
-                    </span>
+                    </p>
                 </div>
             </div>
         </div>
 
         <div id="info">
-            <p class="heading">
+            <h1>
                 Choose the right course for you based on reviews
-            </p>
-            <p class="info-text">
-                Students share their reviews with us and we publish them all. We made a rating of language schools based
-                of students' feedback, considering the location, accommodation, courses, and availability of leisure
-                activities.
-            </p>
-            <p class="heading">
-                Why book with LinguaLand
-            </p>
-            <p class="info-text">
-                We do not charge commissions or additional fees, and schools provide discounts of up to 30% to our
-                students. You do not need to go anywhere or call to book a course. You can book it all online.
-            </p>
+                <h1>
+                    <p>
+                        Students share their reviews with us and we publish them all. We made a rating of language
+                        schools based
+                        of students' feedback, considering the location, accommodation, courses, and availability of
+                        leisure
+                        activities.
+                    </p>
+                    <h1>
+                        Why book with LinguaLand
+                    </h1>
+                    <p>
+                        We do not charge commissions or additional fees, and schools provide discounts of up to 30% to
+                        our
+                        students. You do not need to go anywhere or call to book a course. You can book it all online.
+                    </p>
         </div>
     </div>
 
     <div id="subscribe">
-        <div class="subscribe-col1">
-            <img src="ill/subscribe-left.svg" alt="image boy" class="subscribe-1img">
-        </div>
-        <div class="subscribe-col2">
-            <p>
+        <img src="ill/subscribe-left.svg" alt="image boy" class="subscribe-1img">
+        <div class="subscribe-text">
+            <h1>
                 Subscribe!
-            </p>
-            <input type="email" name="email" value="Email" class="email">
-            <p class="subscribe-text">
+            </h1>
+            <form method="POST">
+                <input type="email" name="email" placeholder="Email" class="email">
+                <button><i class="fas fa-envelope"></i></button>
+                </input>
+            </form>
+            <p>
                 We send short, useful advice on how to learn English every week
             </p>
         </div>
-        <div class="subscribe-col3">
-            <img src="ill/subscribe-right.svg" alt="image girl" class="subscribe-2img">
-        </div>
+        <img src="ill/subscribe-right.svg" alt="image girl" class="subscribe-2img">
     </div>
 
     <div id="footer">
-        <div class="footer-col">
-            <div class="footer-col-1">
-                <p>
+        <div id="footer-col">
+            <div class="footer-col1">
+                <h2>
                     LinguaLand
-                </p>
+                </h2>
                 <p>
                     About company
                 </p>
@@ -153,16 +164,16 @@
                     Affiliate program
                 </p>
             </div>
-            <div class="footer-col-2">
-                <p>
+            <div class="footer-col2">
+                <h2>
                     For student
-                </p>
+                </h2>
                 <p>
                     My account
                 </p>
             </div>
-            <div class="footer-col-3">
-                <div class="language">
+            <div class="footer-col3">
+                <form method="POST">
                     <select name="language">
                         <option selected value="English">English</option>
                         <option value="Russian">Spanish</option>
@@ -170,33 +181,31 @@
                         <option value="French">French</option>
                         <option value="German">German</option>
                     </select>
-                </div>
-                <div class="currency">
+                    <br>
                     <select name="currency">
                         <option selected value="Dollar">U.S. dollar</option>
                         <option value="Euro">Euro</option>
                     </select>
-                </div>
+                </form>
             </div>
-            <div class="footer-row">
-                <div class="footer-row-1">
-                    <span>
-                        LinguaLand.com 611 Gateway Blvd, South San Francisco, CA 94080, USA
-                    </span>
-                </div>
-                <div class="footer-row-2">
-                    <span>
-                        Sitemap
-                    </span>
-                    <span>
-                        Privacy policy
-                    </span>
-                    <span>
-                        Terms of use
-                    </span>
-                </div>
+        </div>
+        <div class="footer-row">
+            <div>
+                <span>
+                    LinguaLand.com 611 Gateway Blvd, South San Francisco, CA 94080, USA
+                </span>
             </div>
-
+            <div>
+                <span>
+                    Sitemap
+                </span>
+                <span>
+                    Privacy policy
+                </span>
+                <span>
+                    Terms of use
+                </span>
+            </div>
         </div>
     </div>
 

@@ -1,0 +1,78 @@
+/* Geometry */
+
+#footer {
+    padding: 30px 100px 30px 100px;
+}
+
+#footer-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+#footer h2 {
+    margin-bottom: 20px;
+}
+
+#footer p {
+    margin-bottom: 10px;
+}
+
+.footer-col2 {
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+#footer select {
+    width: var(--width-form);
+    height: var(--height-form);
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: var(--border-radius);
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-row span:first-child {
+    margin-left: 0px;
+}
+
+.footer-row span {
+    margin: 10px;
+}
+
+/* Colors */
+
+#footer {
+    background-color: var(--page-background-color);
+}
+
+#footer select {
+    border-color: var(--border-color-form);
+}
+
+/* Fonts */
+
+#footer {
+    font-size: 18px;
+}
+
+#footer span {
+    font-size: 14px;
+}
+
+#footer select {
+    font-size: 18px;
+}
+
+/* Hover */
+
+select:hover,
+#footer p:hover,
+#footer span:hover {
+    cursor: pointer
+}

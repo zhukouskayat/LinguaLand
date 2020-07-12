@@ -1,0 +1,93 @@
+/* Geometry */
+
+#subscribe {
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-1img {
+    margin-top: 22px;
+    width: 180px;
+    height: 286px;
+    margin-bottom: 20px;
+}
+
+.subscribe-2img {
+    margin-top: 15px;
+    width: 168px;
+    height: 286px;
+    margin-bottom: 20px;
+}
+
+#subscribe h1 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+#subscribe form {
+    position: relative;
+}
+
+
+#subscribe button {
+    position: absolute;
+    border: transparent;
+    bottom: 40px;
+    right: 20px;
+}
+
+.email {
+    margin-bottom: 30px;
+    width: 90%;
+    height: var(--height-form);
+    border-bottom: 2px solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+/* Colors */
+
+.email {
+    border-color: var(--border-color-form);
+}
+
+#subscribe button {
+    background-color: transparent;
+    border-color: none;
+}
+
+.fa-envelope {
+    color: #59459C;
+}
+
+/* Fonts */
+
+#ssubscribe h1 {
+    text-align: center;
+}
+
+#subscribe p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.subscribe-text {
+    text-align: center;
+}
+
+.email {
+    font-size: 18px;
+}
+
+.fa-envelope  {
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Hover */
+
+#subscribe button {
+    cursor: pointer
+}

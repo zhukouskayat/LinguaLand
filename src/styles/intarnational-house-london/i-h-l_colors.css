@@ -1,11 +1,3 @@
-.fa-user:before {
-    color: #59459C;
-}
-
-#header .header-active {
-    color: #59459C;
-}
-
 #content {
     background-color: #E4F2F9
 }
@@ -49,17 +41,4 @@
 #buttom-content {
     background-color: #68BDD1;
     color: white
-}
-
-.email {
-    border-color: #8585DD;
-    color: gray;
-}
-
-.footer-col-3 select {
-    border-color: #8585DD;
-}
-
-#footer {
-    background-color: #E4F2F9;
 }

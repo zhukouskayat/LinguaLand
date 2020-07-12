@@ -1,14 +1,13 @@
-#header a:hover {
-    color: #59459C;
-}
-
-#buttom-banner:hover {
+#banner button:hover {
     background-color: #0e98af;
     cursor: pointer
 }
 
-#buttom-book:hover {
+#book button:hover {
     background-color: #0e98af;
     cursor: pointer
 }
 
+select:hover {
+    cursor: pointer
+}
