@@ -1,14 +1,5 @@
-#buttom-banner:hover {
-    background-color: #0e98af;
-    cursor: pointer
-}
-
-#buttom-book:hover {
-    background-color: #0e98af;
-    cursor: pointer
-}
-
-#buttom-request:hover {
-    background-color: #0e98af;
+#banner button:hover,
+#request button:hover{
+    background-color: var(--hover-background-color-button);
     cursor: pointer
 }

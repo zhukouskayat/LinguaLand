@@ -1,100 +1,81 @@
+#banner h1,
+#request h1 {
+    margin: var(--margin-h1);
+}
+
 #banner {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-bottom: 20px;
+    padding: var(--padding-main);
 }
 
-.banner-ill {
-    margin-right: 100px;
-    margin-top: 30px;
-    width: 386px;
+#banner-text {
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#banner button {
+    margin: 50px 0px 0px 0px;
+}
+
+#banner-ill {
+    width: 380px;
     height: 340px;
-}
-
-#banner p:first-child {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#buttom-banner {
-    width: 292px;
-    height: 50px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    margin-top: 100px;
+    margin: 20px 0px 20px 0px;
 }
 
 #request {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: var(--padding-main);
 }
 
-#request p {
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-#request-row1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#request select,
-#request input,
-#education {
-    width: 292px;
-    height: 50px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 0px;
-}
-
-#request-row2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#request-row3 {
+#request .button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    margin: 20px 0px 50px 0px;
 }
 
-#info h1:first-child {
-    padding-top: 50px;
+#request>form>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#info p:last-child {
-    padding-bottom: 50px;
+#request button,
+#banner button {
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
 }
 
-#info ul {
-    margin-left: 120px;
+#request select,
+#request input {
+    width: 30%;
+    height: var(--height-form);
+    border-radius:  var(--border-radius);
+    border: var(--border-select);
+    border-color: var(--border-color-form);
+    margin-bottom: 20px;
+    padding: 0px;
 }
 
-#info p,
-#info ul {
-    padding-bottom: 15px;
+#info {
+    padding: 50px 100px 50px 100px;
 }
 
-#info h1 {
-    padding-bottom: 20px;
-}
-
-#info h1,
 #info p {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 20px 0px;
 }
+
+#info ul {
+    margin: 20px 0px 20px 20px;
+}
+
 
 
 

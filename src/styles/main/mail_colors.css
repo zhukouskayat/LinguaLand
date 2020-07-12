@@ -10,7 +10,7 @@
 #banner button {
     color: var(--color-button);
     background-color: var(--background-color-button);
-    border-color: transparent;
+    border: transparent;
 }
 
 #book>form>select {
@@ -20,7 +20,7 @@
 #book>form>button {
     color: var(--color-button);
     background-color: var(--background-color-button);
-    border-color: transparent;
+    border: transparent;
 }
 
 .fa-globe {

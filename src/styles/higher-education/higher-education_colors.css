@@ -1,26 +1,21 @@
-#banner {
-    background-color: #E4F2F9;
+#request select,
+#request input {
+    border-color: var(--border-color-form);
 }
 
-#buttom-banner {
-    color: white;
-    border-color: transparent;
-    background-color: #68BDD1;
-}
-
-#request-row select,
-input,
-#education {
-    border-color: #8585DD;
-    color: gray;
-}
-
-#buttom-request {
-    color: white;
-    border-color: transparent;
-    background-color: #68BDD1;
-}
-
+#banner,
 #info {
-    background-color: #E4F2F9;
+    background-color: var(--page-background-color);
+}
+
+#request>form>select,
+#request>form>input {
+    border-color: var(--border-color-form);
+}
+
+#banner button,
+#request button {
+    color: var(--color-button);
+    background-color: var(--background-color-button);
+    border: transparent;
 }
