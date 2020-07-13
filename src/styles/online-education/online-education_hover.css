@@ -1,10 +1,5 @@
-#buttom-banner:hover {
-    background-color: #0e98af;
-    cursor: pointer
-}
-
-#buttom-book:hover {
-    background-color: #0e98af;
+button:hover {
+    background-color: var(--hover-background-color-button);
     cursor: pointer
 }
 

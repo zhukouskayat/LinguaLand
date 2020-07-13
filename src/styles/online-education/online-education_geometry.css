@@ -1,126 +1,46 @@
-#banner-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-bottom: 20px;
-}
-
-.banner-1-ill {
-    margin-right: 100px;
-    margin-top: 30px;
-    width: 310px;
-    height: 340px;
-}
-
-#banner-1 h1 {
-    padding-top: 50px;
-}
-
-div.banner-1-col1>p {
-    margin-top: 10px;
-}
-
-#banner-1-info {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 60px;
-}
-
-.banner-1-info-col p:last-child {
-    font-weight: 600;
-}
-
-.banner-1-info-col {
-    margin-right: 30px;
-}
-
-#buttom-banner {
-    width: 292px;
-    height: 50px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-}
-
-#banner-2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 20px;
-}
-
-.banner-2-ill {
-    margin-right: 100px;
-    margin-top: 20px;
-    width: 310px;
-    height: 340px;
-}
-
-#banner-2 h1 {
-    padding-top: 50px;
-}
-
-div.banner-2-col1>p {
-    margin-top: 10px;
-}
-
-#banner-2-info {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: right;
-    margin-top: 60px;
-}
-
-.banner-2-info-col p:last-child {
-    font-weight: 600;
-}
-
-.banner-2-info-col {
-    margin-left: 30px;
-}
-
+#banner-1,
 #banner-3 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-bottom: 20px;
+    padding: 0px 100px 0px 100px;
 }
 
-.banner-3-ill {
-    margin-right: 100px;
-    margin-top: 10px;
-    width: 310px;
-    height: 360px;
-}
-
+#banner-1 h1,
+#banner-2 h1,
 #banner-3 h1 {
-    padding-top: 50px;
+    margin: 50px 0px 10px 0px;
 }
 
-div.banner-3-col1>p {
-    margin-top: 10px;
+#banner-ill {
+    width: 310px;
+    height: 340px;
+    margin: 20px 0px 20px 0px;
 }
 
-#banner-3-info {
+#banner-info {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 60px;
+    justify-content: left;
+    margin: 50px 0px 50px 0px;
 }
 
-.banner-3-info-col p:last-child {
-    font-weight: 600;
+#banner-info>div {
+    padding-right: 30px;
 }
 
-.banner-3-info-col {
-    margin-right: 30px;
+#banner-1 button,
+#banner-2 button,
+#banner-3 button {
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
+}
+
+
+#banner-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
 }

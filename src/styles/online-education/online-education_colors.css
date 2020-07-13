@@ -1,21 +1,10 @@
-#banner-1 {
-    background-color: #E4F2F9;
-}
-
-#banner-1 span {
-    color: #59459C;
-}
-
-#buttom-banner {
-    color: white;
-    border-color: transparent;
-    background-color: #68BDD1;
-}
-
+#banner-1,
 #banner-3 {
-    background-color: #E4F2F9;
+    background-color: var(--page-background-color);
 }
 
-#banner-3 span {
-    color: #59459C;
+button {
+    color: var(--color-button);
+    background-color: var(--background-color-button);
+    border: transparent;
 }

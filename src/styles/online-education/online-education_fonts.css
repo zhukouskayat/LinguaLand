@@ -1,34 +1,24 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.banner-2-col2>p {
-    text-align: right;
-}
-
-.banner-2-col2>div:last-child {
-    text-align: right;
-}
-
 #banner-1 h1,
 #banner-2 h1,
 #banner-3 h1 {
+    font-weight: var(--font-weight-h1);
+    font-size: var(--font-size-h1);
+}
+
+#banner-1 p,
+#banner-2 p,
+#banner-3 p {
+    font-size: var(--font-size-main-text);
+}
+
+#banner-1 p:last-child,
+#banner-2 p:last-child,
+#banner-3 p:last-child {
+    font-size: var(--font-size-main-text);
     font-weight: bold;
-    font-size: 28px;
 }
 
-#banner-1,
-#banner-2,
-#banner-3 {
-    font-size: 20px;
+button {
+    font-size: var( --font-size-button);
 }
 
-#banner-1 span,
-#banner-2 span,
-#banner-3 span {
-    font-weight: bold;
-}
-
-#buttom-banner {
-    font-size: 20px;
-}
