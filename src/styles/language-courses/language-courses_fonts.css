@@ -1,22 +1,25 @@
 #content h1 {
-    font-weight: bold;
-    font-size: 28px;
+    font-weight: var(--font-weight-h1);
+    font-size: var(--font-size-h1);
 }
 
-select#sort {
-    font-size: 18px;
+h3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
 }
 
-select.select-content {
-    font-size: 18px;
+#content-heading select,
+#content-left select {
+    font-size: var(--font-size-select);
 }
+
 
 #content-left label {
-    font-size: 18px;
+    font-size: var(--font-size-select);
 }
 
-#buttom-content {
-    font-size: 20px;
+button {
+    font-size: var( --font-size-button);
 }
 
 .item-1>p:first-child,
@@ -47,4 +50,8 @@ select.select-content {
 #content-left p {
     font-weight: bold;
     font-size: 20px;
+}
+
+.item2 {
+    font-size: var( --font-size-button);
 }

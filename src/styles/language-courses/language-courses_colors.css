@@ -1,39 +1,31 @@
 #content {
-    background-color: #E4F2F9;
+    background-color: var(--page-background-color);
 }
 
-select#sort {
-    border-color: #8585DD;
-}
-
-select.select-content {
-    border-color: #8585DD;
-}
-
-#buttom-content {
-    background-color: #68BDD1;
-    color: white;
-}
-
-#buttom-content-item {
-    background-color: #68BDD1;
-    color: white;
-}
-
-.item-1>span {
-    color: gray;
+#content-left button,
+.button-item {
+    color: var(--color-button);
+    background-color: var(--background-color-button);
+    border: transparent;
 }
 
 #content-left {
     background-color: white;
 }
 
-.item {
+
+.item-1>span {
+    color: gray;
+}
+
+
+.item,
+.item2 {
     background-color: white;
 }
 
-#buttom-item {
-    border-color: transparent;
+#button-content {
     background-color: white;
     color: #68BDD1;
+    border-color: #68BDD1;
 }

@@ -1,11 +1,6 @@
-#buttom-content:hover {
-    background-color: #0e98af;
-    cursor: pointer;
-}
-
-#buttom-content-item:hover {
-    background-color: #0e98af;
-    cursor: pointer;
+button:hover {
+    background-color: var(--hover-background-color-button);
+    cursor: pointer
 }
 
 select,
@@ -13,7 +8,9 @@ input {
     cursor: pointer;
 }
 
-#buttom-item:hover {
+#button-content:hover {
+    background-color: #68BDD1;
+    color: white;
     border-color: #68BDD1;
-    cursor: pointer;
+    cursor: pointer
 }

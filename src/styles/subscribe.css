@@ -49,6 +49,10 @@
 
 /* Colors */
 
+#subscribe {
+    background-color: white;
+}
+
 .email {
     border-color: var(--border-color-form);
 }

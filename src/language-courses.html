@@ -32,28 +32,30 @@
                 Learn English abroad
             </h1>
             <div>
-                <select name="Sort by" id="sort">
-                    <option selected value="Sort by">Sort by</option>
-                    <option value="Price">Price low to hight</option>
-                    <option value="Price">Price hight to low</option>
-                    <option value="Reviewed">Best reviewed</option>
-                    <option value="Recommendations">Our recommendations</option>
-                </select>
+                <form method="POST">
+                    <select name="Sort by">
+                        <option selected value="Sort by">Sort by</option>
+                        <option value="Price">Price low to hight</option>
+                        <option value="Price">Price hight to low</option>
+                        <option value="Reviewed">Best reviewed</option>
+                        <option value="Recommendations">Our recommendations</option>
+                    </select>
+                </form>
             </div>
         </div>
         <div id="content-midle">
             <div id="content-left">
-                <p>
+                <h3>
                     Search school
-                </p>
+                </h3>
                 <form method="POST">
-                    <select name="Age" class="select-content">
+                    <select name="Age">
                         <option selected value="Adult">Adult (16+)</option>
                         <option value="Children">Children (4-16)</option>
                         <option value="Family program">Family program</option>
                     </select>
                     <br>
-                    <select name="language" class="select-content">
+                    <select name="language">
                         <option selected value="English">English</option>
                         <option value="Russian">Spanish</option>
                         <option value="Italian">Italian</option>
@@ -61,7 +63,7 @@
                         <option value="German">German</option>
                     </select>
                     <br>
-                    <select name="where" class="select-content">
+                    <select name="where">
                         <option selected value="Anywhere">Anywhere</option>
                         <option value="United Kingdom">United Kingdom</option>
                         <option value="United States">United States</option>
@@ -76,9 +78,9 @@
                         Show only schools with a full refund in case of a visa rejection.
                     </label>
                 </form>
-                <p>
+                <h3>
                     Calculation of cost
-                </p>
+                </h3>
                 <form method="POST">
                     <select name="weeks" class="select-content">
                         <option selected value="2 weeks">For 2 weeks</option>
@@ -93,9 +95,9 @@
                         <option selected value="1 year">For 1 year</option>
                     </select>
                 </form>
-                <p>
+                <h3>
                     Special features
-                </p>
+                </h3>
                 <form method="POST">
                     <label>
                         <input type="checkbox" name="Checkbox">
@@ -112,16 +114,18 @@
                         Located in the center
                     </label>
                     <br>
-                    <input type="submit" value="Search" id="buttom-content">
+                    <button>
+                        Search
+                    </button>
                 </form>
             </div>
 
             <div id="content-right">
                 <div class="item">
                     <div class="item-1">
-                        <p>
+                        <h3>
                             International House London
-                        </p>
+                        </h3>
                         <p>
                             London, UK
                         </p>
@@ -133,22 +137,22 @@
                         </span>
                     </div>
                     <div class="item-2">
-                        <p>
+                        <h3>
                             From 499$
-                        </p>
+                        </h3>
                         <p>
                             For 2 weeks
                         </p>
-                        <form action="intarnational-house-london.html" target="_blank">
-                            <button id="buttom-content-item">Choose a course</button>
+                        <form method="POST" action="intarnational-house-london.html" target="_blank">
+                            <button class="button-item">Choose a course</button>
                         </form>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-1">
-                        <p>
+                        <h3>
                             Twin English Centre London
-                        </p>
+                        </h3>
                         <p>
                             London, UK
                         </p>
@@ -160,20 +164,22 @@
                         </span>
                     </div>
                     <div class="item-2">
-                        <p>
+                        <h3>
                             From 332$
-                        </p>
+                        </h3>
                         <p>
                             For 2 weeks
                         </p>
-                        <input type="submit" value="Choose a course" id="buttom-content-item">
+                        <form method="POST" action="intarnational-house-london.html" target="_blank">
+                            <button class="button-item">Choose a course</button>
+                        </form>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-1">
-                        <p>
+                        <h3>
                             Gateway School of English
-                        </p>
+                        </h3>
                         <p>
                             St. Julian's, Malta
                         </p>
@@ -185,20 +191,22 @@
                         </span>
                     </div>
                     <div class="item-2">
-                        <p>
+                        <h3>
                             From 439$
-                        </p>
+                        </h3>
                         <p>
                             For 2 weeks
                         </p>
-                        <input type="submit" value="Choose a course" id="buttom-content-item">
+                        <form method="POST" action="intarnational-house-london.html" target="_blank">
+                            <button class="button-item">Choose a course</button>
+                        </form>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-1">
-                        <p>
+                        <h3>
                             Oxford International Brighton
-                        </p>
+                        </h3>
                         <p>
                             Brighton, UK
                         </p>
@@ -210,20 +218,22 @@
                         </span>
                     </div>
                     <div class="item-2">
-                        <p>
+                        <h3>
                             From 458$
-                        </p>
+                        </h3>
                         <p>
                             For 2 weeks
                         </p>
-                        <input type="submit" value="Choose a course" id="buttom-content-item">
+                        <form method="POST" action="intarnational-house-london.html" target="_blank">
+                            <button class="button-item">Choose a course</button>
+                        </form>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-1">
-                        <p>
+                        <h3>
                             Kings Los Angeles (Hollywood)
-                        </p>
+                        </h3>
                         <p>
                             Los Angeles, US
                         </p>
@@ -235,20 +245,22 @@
                         </span>
                     </div>
                     <div class="item-2">
-                        <p>
+                        <h3>
                             From 748$
-                        </p>
+                        </h3>
                         <p>
                             For 2 weeks
                         </p>
-                        <input type="submit" value="Choose a course" id="buttom-content-item">
+                        <form method="POST" action="intarnational-house-london.html" target="_blank">
+                            <button class="button-item">Choose a course</button>
+                        </form>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-1">
-                        <p>
+                        <h3>
                             FLS Boston Common
-                        </p>
+                        </h3>
                         <p>
                             Boston, US
                         </p>
@@ -260,125 +272,130 @@
                         </span>
                     </div>
                     <div class="item-2">
-                        <p>
+                        <h3>
                             From 448$
-                        </p>
+                        </h3>
                         <p>
                             For 2 weeks
                         </p>
-                        <input type="submit" value="Choose a course" id="buttom-content-item">
+                        <form method="POST" action="intarnational-house-london.html" target="_blank">
+                            <button class="button-item">Choose a course</button>
+                        </form>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-1">
-                        <p>
+                        <h3>
                             Twin English Centre Dublin
-                            <p>
-                                Dublin, Ireland
-                            </p>
-                            <span>
-                                From 16 years old
-                            </span>
-                            <span>
-                                Value from money
-                            </span>
+                        </h3>
+                        <p>
+                            Dublin, Ireland
+                        </p>
+                        <span>
+                            From 16 years old
+                        </span>
+                        <span>
+                            Value from money
+                        </span>
                     </div>
                     <div class="item-2">
-                        <p>
+                        <h3>
                             From 448$
-                        </p>
+                        </h3>
                         <p>
                             For 2 weeks
                         </p>
-                        <input type="submit" value="Choose a course" id="buttom-content-item">
+                        <form method="POST" action="intarnational-house-london.html" target="_blank">
+                            <button class="button-item">Choose a course</button>
+                        </form>
                     </div>
                 </div>
-                <form>
-                    <input type="submit" value="Show more schools" id="buttom-item">
-                </form>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="subscribe">
-        <img src="ill/subscribe-left.svg" alt="image boy" class="subscribe-1img">
-        <div class="subscribe-text">
-            <h1>
-                Subscribe!
-            </h1>
-            <form method="POST">
-                <input type="email" name="email" placeholder="Email" class="email">
-                <button><i class="fas fa-envelope"></i></button>
-                </input>
-            </form>
-            <p>
-                We send short, useful advice on how to learn English every week
-            </p>
-        </div>
-        <img src="ill/subscribe-right.svg" alt="image girl" class="subscribe-2img">
-    </div>
-
-    <div id="footer">
-        <div id="footer-col">
-            <div class="footer-col1">
-                <h3>
-                    LinguaLand
-                </h3>
-                <p>
-                    About company
-                </p>
-                <p>
-                    Contact us
-                </p>
-                <p>
-                    Affiliate program
-                </p>
-            </div>
-            <div class="footer-col2">
-                <h3>
-                    For student
-                </h3>
-                <p>
-                    My account
-                </p>
-            </div>
-            <div class="footer-col3">
                 <form method="POST">
-                    <select name="language">
-                        <option selected value="English">English</option>
-                        <option value="Russian">Spanish</option>
-                        <option value="Italian">Italian</option>
-                        <option value="French">French</option>
-                        <option value="German">German</option>
-                    </select>
-                    <br>
-                    <select name="currency">
-                        <option selected value="Dollar">U.S. dollar</option>
-                        <option value="Euro">Euro</option>
-                    </select>
+                    <button id="button-content">
+                        Show more schools
+                    </button>
                 </form>
             </div>
         </div>
-        <div class="footer-row">
-            <div>
-                <span>
-                    LinguaLand.com 611 Gateway Blvd, South San Francisco, CA 94080, USA
-                </span>
+
+        <div id="subscribe">
+            <img src="ill/subscribe-left.svg" alt="image boy" class="subscribe-1img">
+            <div class="subscribe-text">
+                <h1>
+                    Subscribe!
+                </h1>
+                <form method="POST">
+                    <input type="email" name="email" placeholder="Email" class="email">
+                    <button><i class="fas fa-envelope"></i></button>
+                    </input>
+                </form>
+                <p>
+                    We send short, useful advice on how to learn English every week
+                </p>
             </div>
-            <div>
-                <span>
-                    Sitemap
-                </span>
-                <span>
-                    Privacy policy
-                </span>
-                <span>
-                    Terms of use
-                </span>
+            <img src="ill/subscribe-right.svg" alt="image girl" class="subscribe-2img">
+        </div>
+
+        <div id="footer">
+            <div id="footer-col">
+                <div class="footer-col1">
+                    <h3>
+                        LinguaLand
+                    </h3>
+                    <p>
+                        About company
+                    </p>
+                    <p>
+                        Contact us
+                    </p>
+                    <p>
+                        Affiliate program
+                    </p>
+                </div>
+                <div class="footer-col2">
+                    <h3>
+                        For student
+                    </h3>
+                    <p>
+                        My account
+                    </p>
+                </div>
+                <div class="footer-col3">
+                    <form method="POST">
+                        <select name="language">
+                            <option selected value="English">English</option>
+                            <option value="Russian">Spanish</option>
+                            <option value="Italian">Italian</option>
+                            <option value="French">French</option>
+                            <option value="German">German</option>
+                        </select>
+                        <br>
+                        <select name="currency">
+                            <option selected value="Dollar">U.S. dollar</option>
+                            <option value="Euro">Euro</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div>
+                    <span>
+                        LinguaLand.com 611 Gateway Blvd, South San Francisco, CA 94080, USA
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        Sitemap
+                    </span>
+                    <span>
+                        Privacy policy
+                    </span>
+                    <span>
+                        Terms of use
+                    </span>
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
 </body>

@@ -1,7 +1,5 @@
 #content h1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 100px;
+    padding: 50px 0px;
 }
 
 #content-heading {
@@ -9,6 +7,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: var(--padding-main);
+}
+
+#content-heading select {
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
+    border: var(--border-select);
+    border-color: var(--border-color-form);
+    margin: 50px 0px;
 }
 
 #content-midle {
@@ -17,104 +25,90 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     padding-bottom: 50px;
+    padding: var(--padding-main);
 }
 
 #content-left {
-    height: 740px;
-    width: 250px;
-    margin-left: 100px;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    border-radius: 10px;
+    width: 310px;
+    height: 800px;
+    padding: 0px 30px 30px 30px;
+    border-radius: var(--border-radius);
 }
 
-#content-left p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+#content-left select:last-child {
+    margin-bottom: 0px;
 }
 
-select.select-content {
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+#content-left select {
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
+    border: var(--border-select);
+    border-color: var(--border-color-form);
+    margin-bottom: 30px;
 }
 
-select#sort {
-    width: 292px;
-    height: 50px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
+#content-left h3 {
+    margin: 30px 0px 30px 0px;
 }
 
-#buttom-content {
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    margin-top: 70px;
+#content-left button {
+    margin: 50px 0px 0px 0px;
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
 }
 
 #content-right {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 100%;
     margin-left: 50px;
-    margin-right: 100px;
-    padding-bottom: 30px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
-.item {
-    height: 18%;
-    border-radius: 10px;
-    position: relative;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-}
-
-.item-1>p:first-child {
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.item-1>p {
-    margin-left: 15px;
-    margin-bottom: 30px;
-}
-
-.item-1 span {
-    margin-left: 15px;
-}
-
-.item-2>p:first-child {
-    position: absolute;
-    right: 190px;
-    top: 10px;
-}
-
-.item-2 p{
-    position: absolute;
-    right: 197px;
-    top: 37px;
-}
-
-#buttom-content-item {
+.button-item {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 292px;
-    height: 50px;
-    border-radius: 10px;
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
 }
 
-#buttom-item {
+.item {    
+    position: relative;
+    height: 18%;
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.item-1 span {
+    margin-right: 40px;
+}
+
+.item-1>p,
+.item-1>h3 {
+    margin-bottom: 30px;
+}
+
+.item-2>h3 {
+    position: absolute;
+    right: 150px;
+    top: 15px;
+}
+
+.item-2 p {
+    position: absolute;
+    right: 157px;
+    top: 45px;
+}
+
+#button-content {
+    height: var(--height-form);
     width: 100%;
-    height: 50px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
+    margin-bottom: 50px;
+    border: var(--border-select);
 }
