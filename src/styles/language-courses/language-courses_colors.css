@@ -2,9 +2,9 @@
     background-color: var(--page-background-color);
 }
 
-.button-item a {
+.button-item>a {
+    color: var(--color-button);
     text-decoration: none;
-    color: white;
 }
 
 #content-left button,
@@ -12,6 +12,7 @@
     color: var(--color-button);
     background-color: var(--background-color-button);
     border: transparent;
+    text-decoration: none;
 }
 
 #content-left {
