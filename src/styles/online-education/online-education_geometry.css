@@ -1,3 +1,9 @@
+@media screen and (max-width: 880px) {
+    #banner-ill {
+        display: none;
+    }
+}
+
 #banner-1,
 #banner-3 {
     display: flex;
@@ -35,6 +41,7 @@
     width: var(--width-form);
     height: var(--height-form);
     border-radius: var(--border-radius);
+    margin-bottom: 50px;
 }
 
 

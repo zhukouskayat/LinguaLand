@@ -1,3 +1,13 @@
+@media screen and (max-width: 1120px) {
+    #content-heading {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #content-midle {
+        flex-direction: column;
+    }
+}
+
 #content h1 {
     padding: 50px 0px;
 }

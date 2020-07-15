@@ -1,3 +1,9 @@
+@media screen and (max-width: 880px) {
+    #banner-ill {
+        display: none;
+    }
+}
+
 #banner h1,
 #request h1 {
     margin: var(--margin-h1);
@@ -18,7 +24,7 @@
 }
 
 #banner button {
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 20px 0px;
 }
 
 #banner-ill {
