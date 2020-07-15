@@ -111,4 +111,5 @@
     border-radius: var(--border-radius);
     margin-bottom: 50px;
     border: var(--border-select);
+    border-color: white;
 }

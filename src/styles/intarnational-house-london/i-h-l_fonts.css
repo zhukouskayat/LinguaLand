@@ -1,60 +1,32 @@
-#content-left-l p:first-child {
-    font-weight: bold;
-    font-size: 20px;
+#content h1 {
+    font-weight: var(--font-weight-h1);
+    font-size: var(--font-size-h1);
 }
 
-#content>p:first-child{
-    font-weight: bold;
-font-size: 28px;
+#content h3 {
+    font-weight: var(--font-weight-h3);
+    font-size: var(--font-size-h3);
 }
 
-#content-left-l p,
-#content-left-l ol {
+p,
+ol,
+span {
+    font-size: var(--font-size-main-text);
     text-align: justify;
+}
+
+div.item1-course>form {
+    font-size: var(--font-size-select)
+}
+
+.item1-course span {
     font-size: 18px;
 }
 
-#buttom-item {
-    font-size: 20px;
+#content-right select {
+    font-size: var(--font-size-select);
 }
 
-.item1-course>span {
-    font-size: 18px;
-}
-
-.item1>span {
-    font-size: 18px;
-}
-
-.item1>form {
-    font-size: 18px;
-}
-
-#content-right-l>span:first-child {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#buttom-item1,
-#buttom-item-1-active,
-#buttom-item1-course,
-#buttom-item-1-course {
-    font-size: 18px;
-}
-
-#content-right-l>span {
-    font-size: 20px;
-}
-
-.select-content-right {
-    font-size: 18px;
-}
-
-#content-right-l>div>p {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#buttom-content {
-    font-size: 20px;
+button {
+    font-size: var( --font-size-button);
 }

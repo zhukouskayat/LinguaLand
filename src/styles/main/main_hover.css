@@ -1,4 +1,5 @@
-button:hover {
+#banner button:hover,
+#book>form>button:hover {
     background-color: var(--hover-background-color-button);
     cursor: pointer
 }

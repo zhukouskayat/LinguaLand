@@ -19,7 +19,7 @@
 <body>
 
     <div id="header">
-        <a href="main.html"><img id="logo-img" src="../src/ill/logo.svg" alt="logo"></a>
+        <a href="index.html"><img id="logo-img" src="../src/ill/logo.svg" alt="logo"></a>
         <a class="header-active" href="language-courses.html">Language courses</a>
         <a href="higher-education.html">Higher Education</a>
         <a href="online-education.html">Online Education</a>
@@ -27,15 +27,15 @@
     </div>
 
     <div id="content">
-        <p>
+        <h1>
             International House London
-        </p>
+        </h1>
         <div id="content-midle">
-            <div id="content-left-l">
+            <div id="content-left">
                 <div class="item1">
-                    <p>
+                    <h3>
                         Description
-                    </p>
+                    </h3>
                     <p>
                         International House London is a prestigious 9-floor language school in central London, existing
                         since
@@ -110,15 +110,15 @@
                         2020.
                     </p>
                 </div>
-                <div id="content-heading">
-                    <p>
+                <div>
+                    <h2>
                         Language courses
-                    </p>
+                    </h2>
                 </div>
-                <div class="item1">
-                    <p>
+                <div class="item1-course">
+                    <h3>
                         Online course
-                    </p>
+                    </h3>
                     <span>
                         16+ years old
                     </span>
@@ -129,24 +129,27 @@
                         lesson 55 minutes
                     </span>
                     <form method="post">
-                        <input type="radio" name="lessons" value="15 lessons per week" checked="checked"/>15 lessons per week
+                        <input type="radio" name="lessons" value="15 lessons per week" checked="checked" />15 lessons
+                        per week
                         <br>
-                        <input type="radio" name="lessons" value="20 lessons per week"/>20 lessons per week
+                        <input type="radio" name="lessons" value="20 lessons per week" />20 lessons per week
                     </form>
-                    <span class="text-prise">
-                            <strong>489$</strong> for 2 weeks
-                    </span>
+                    <p>
+                        <strong>489$</strong> for 2 weeks
+                    </p>
                     <form method="POST">
-                        <input type="submit" value="Description" id="buttom-item1">
-                    </form>
-                    <form method="POST">
-                        <input type="submit" value="Selected" id="buttom-item-1-active">
+                        <button>
+                            Description
+                        </button>
+                        <button id="selected">
+                            Selected
+                        </button>
                     </form>
                 </div>
                 <div class="item1-course">
-                    <p>
+                    <h3>
                         General English
-                    </p>
+                    </h3>
                     <span>
                         16+ years old
                     </span>
@@ -156,48 +159,51 @@
                     <span>
                         lesson 55 minutes
                     </span>
-                    <p class="text-prise">
+                    <p>
                         <strong>989$</strong> for 2 weeks
                     </p>
                     <form method="POST">
-                        <input type="submit" value="Description" id="buttom-item1-course">
-                    </form>
-                    <form method="POST">
-                        <input type="submit" value="Select" id="buttom-item-1-course">
+                        <button>
+                            Description
+                        </button>
+                        <button>
+                            Select
+                        </button>
                     </form>
                 </div>
                 <form method="POST">
-                    <input type="submit" value="Show more" id="buttom-item">
+                    <button id="button-content">
+                        Show more schools
+                    </button>
                 </form>
                 <div id="content-heading">
-                    <p>
+                    <h2>
                         Housing
-                    </p>
+                    </h2>
                 </div>
                 <div class="item1">
-                    <p>
-                    </p>
-                    <p>
-                        Usually check in two days before the start of the course, and check out on the day of graduation.
+                    <span>
+                        Usually check in two days before the start of the course, and check out on the day of
+                        graduation.
                         You can change the dates in your account.
-                    </p>
+                    </span>
                 </div>
-
             </div>
-            <div id="content-right-l">
-                <span>
+
+            <div id="content-right">
+                <h3>
                     489$
-                </span>
-                <span>
+                </h3>
+                <p>
                     for 2 weeks
-                </span>
+                </p>
                 <form method="POST">
-                    <select name="Course" class="select-content-right">
+                    <select name="Course">
                         <option selected value="Online">Online course</option>
                         <option value="General">General English</option>
                         <option value="IELTS Preparation">IELTS Preparation</option>
                     </select>
-                    <select name="Data" class="select-content-right">
+                    <select name="Data">
                         <option selected value="20.07.2020">20.07.2020</option>
                         <option value="03.08.2020">03.08.2020</option>
                         <option value="17.08.2020">17.08.2020</option>
@@ -211,7 +217,7 @@
                         <option value="07.12.2020">07.12.2020</option>
                         <option value="21.12.2020">21.12.2020</option>
                     </select>
-                    <select name="weeks" class="select-content-right">
+                    <select name="weeks">
                         <option selected value="2 weeks">For 2 weeks</option>
                         <option value="3 weeks">For 3 weeks</option>
                         <option value="4 weeks">For 4 weeks</option>
@@ -223,7 +229,7 @@
                         <option value="6 months">For 6 months</option>
                         <option value="1 year">For 1 year</option>
                     </select>
-                    <select name="Book" class="select-content-right">
+                    <select name="Book">
                         <option selected value="Don't book">Don't book</option>
                         <option value="Homestay">Homestay</option>
                         <option value="Highbury Residence">Highbury Residence</option>
@@ -231,12 +237,14 @@
                     </select>
                 </form>
                 <div>
-                    <p>
+                    <h3>
                         Total 489$
-                    </p>
+                    </h3>
                 </div>
                 <form method="POST">
-                    <input type="submit" value="Book" id="buttom-content">
+                    <button>
+                        Book
+                    </button>
                 </form>
             </div>
         </div>

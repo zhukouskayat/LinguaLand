@@ -12,7 +12,6 @@ button {
     font-size: var( --font-size-button);
 }
 
-
 #banner {
     font-size: var(--font-size-main-text);
 }
@@ -23,7 +22,8 @@ button {
 }
 
 #info p,
-#info ul {
+#info ul,
+ {
     font-size: var(--font-size-main-text);
     text-align: justify;
 }

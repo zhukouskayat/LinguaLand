@@ -1,4 +1,5 @@
-button:hover {
+#content-left button:hover,
+#content-right button:hover {
     background-color: var(--hover-background-color-button);
     cursor: pointer
 }
@@ -9,8 +10,6 @@ input {
 }
 
 #button-content:hover {
-    background-color: #68BDD1;
-    color: white;
     border-color: #68BDD1;
     cursor: pointer
 }

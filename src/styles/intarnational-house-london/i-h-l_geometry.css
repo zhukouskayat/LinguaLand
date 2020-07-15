@@ -1,3 +1,15 @@
+#content {
+    padding: 0px 100px 0px 100px;
+}
+
+#content h1 {
+    margin: 50px 0px 50px 0px;
+}
+
+#content h2 {
+    margin: 30px 0px 30px 0px;
+}
+
 #content-midle {
     display: flex;
     flex-direction: row;
@@ -6,134 +18,113 @@
     padding-bottom: 50px;
 }
 
-#content-left-l {
+#content-left {
     display: flex;
     flex-direction: column;
-    width: 55%;
-    margin-left: 100px;
+    width: 100%;
     margin-right: 50px;
-    padding-bottom: 30px;
+}
+
+#content-left h3 {
+    margin: 0px 0px 30px 0px;
+}
+
+.item1 p {
+    margin: 20px 0px;
+}
+
+.item1-course p {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+div.item1-course>form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content-left ol {
+    margin: 0px 0px 0px 20px;
 }
 
 .item1 {
-    position: relative;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
+    padding: 30px;
 }
 
 .item1-course {
     position: relative;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
+    padding: 30px;
     margin-top: 30px;
 }
 
-.item1-course>span {
-    margin-right: 20px;
-}
-
-.item1>span {
-    margin-right: 20px;
-}
-
-.text-prise {
-    margin-top: 40px;
-    margin-bottom: 15px;
-}
-
-.item1>form {
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-
-#buttom-item1,
-#buttom-item1-course {
-    position: absolute;
-    right: 210px;
-    bottom: 30px;
-    height: 50px;
-    width: 165px;
-    border-radius: 10px;
-}
-
-#buttom-item-1-active,
-#buttom-item-1-course {
+.item1-course button:last-child {
     position: absolute;
     right: 30px;
     bottom: 30px;
-    height: 50px;
-    width: 165px;
-    border-radius: 10px;
+    border: var(--border-select);
 }
 
-#content-left-l p:first-child {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+.item1-course button:first-child {
+    position: absolute;
+    right: 260px;
+    bottom: 30px;
+    border: var(--border-select);
 }
 
-#content-left-l p {
-    padding-bottom: 15px;
+.item1-course button {
+    margin: 30px 0px 0px 0px;
+    width: 200px;
+    height: var(--height-form);
+    border-radius: var(--border-radius);
 }
 
-#content-left-l ol {
-    margin-left: 20px;
-    padding-bottom: 15px;
+.item1-course span {
+    margin-right: 20px;
 }
 
-#content>p {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 100px;
+div.item1>form {
+    margin: 20px 0px;
 }
 
-#buttom-item {
+#button-content {
+    height: var(--height-form);
+    width: 100%;
+    border-radius: var(--border-radius);
+    margin: 30px 0px 0px 0px;
+    border: var(--border-select);
+    border-color: white;
+}
+
+#content-right {
+    width: 310px;
+    height: 525px;
+    padding: 30px 30px 30px 30px;
+    border-radius: var(--border-radius);
+}
+
+#content-right h3,
+#content-right p {
+    display: inline;
+}
+
+#content-right select:last-child {
+    margin-bottom: 70px;
+}
+
+#content-right select {
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
+    border: var(--border-select);
+    border-color: var(--border-color-form);
     margin-top: 30px;
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
 }
 
-#content-right-l {
-    height: 470px;
-    width: 250px;
-    margin-right: 100px;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    border-radius: 10px;
-}
-
-#content-right-l>span {
-    padding-bottom: 20px;
-}
-
-.select-content-right:first-child {
-    margin-top: 20px;
-}
-
-.select-content-right {
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-#content-right-l>div>p {
-    padding-top: 50px;
-}
-
-#buttom-content {
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    margin-top: 20px;
+#content-right button {
+    margin: 30px 0px 0px 0px;
+    width: var(--width-form);
+    height: var(--height-form);
+    border-radius: var(--border-radius);
 }

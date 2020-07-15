@@ -1,26 +1,28 @@
-#buttom-content:hover {
-    background-color: #0e98af;
+select,
+input {
     cursor: pointer;
 }
 
-#buttom-item:hover {
+#button-content:hover {
     border-color: #68BDD1;
-    cursor: pointer;
+    cursor: pointer
 }
 
-select {
-    cursor: pointer;
+#content-right button:hover {
+    background-color: var(--hover-background-color-button);
+    cursor: pointer
 }
 
-#buttom-item1:hover,
-#buttom-item1-course:hover,
-#buttom-item-1-course:hover {
-    background-color: #68BDD1;
-    color: white;
-    cursor: pointer;
+#selected:hover {
+    background-color: var(--hover-background-color-button);
+    cursor: pointer
+    border: transparent;
+    cursor: pointer
 }
 
-#buttom-item-1-active:hover {
-    background-color: #0e98af;
-    cursor: pointer;
+.item1-course button:hover {
+    color: var(--color-button);
+    background-color: var(--background-color-button);
+    border: transparent;
+    cursor: pointer
 }
