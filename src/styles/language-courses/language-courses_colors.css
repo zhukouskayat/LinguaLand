@@ -2,6 +2,11 @@
     background-color: var(--page-background-color);
 }
 
+.button-item a {
+    text-decoration: none;
+    color: white;
+}
+
 #content-left button,
 .button-item {
     color: var(--color-button);
