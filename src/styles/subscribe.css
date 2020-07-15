@@ -1,4 +1,10 @@
 /* Geometry */
+@media screen and (max-width: 800px) {
+    .subscribe-1img,
+    .subscribe-2img{
+        display: none;
+    }
+  }
 
 #subscribe {
     padding: 10px 100px 10px 100px;

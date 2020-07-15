@@ -1,5 +1,18 @@
 /* Geometry */
 
+@media screen and (max-width: 680px) {
+    #footer-col {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-bottom: 80px;
+    }
+    .footer-col3 {
+        margin-top: 15px;
+    }
+  }
+
 #footer {
     padding: 30px 100px 30px 100px;
 }
