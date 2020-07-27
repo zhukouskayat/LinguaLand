@@ -1,41 +1,39 @@
+/* Geometry */
 #banner h1,
 #book h1 {
-    margin: 50px 0px 50px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 #banner {
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 50px 0px 50px;
 }
 
 #banner-text {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 50px 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
 #banner button {
-    position: absolute;
-    bottom: 30px;
-    width: var(--width-form);
+    position: static;
+    margin-top: 30px;
+    width: 100%;
     height: var(--height-form);
     border-radius: var(--border-radius);
 }
 
 #banner-ill {
-    width: 380px;
-    height: 340px;
-    margin: 20px 0px 20px 0px;
+    display: none;
 }
 
 #book {
     display: flex;
     flex-direction: column;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 50px 0px 50px;
 }
 
 #book>form {
@@ -47,8 +45,8 @@
 
 #book>form>select,
 #book>form>button {
-    margin-bottom: 50px;
-    width: var(--width-form);
+    margin-bottom: 30px;
+    width: 100%;
     height: var(--height-form);
 }
 
@@ -65,7 +63,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .fa-dollar-sign {
@@ -77,17 +75,17 @@
 }
 
 .book-text-col1 {
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 .book-text-col1,
 .book-text-col2 {
-    width: 49%;
+    width: 100%;
 
 }
 
 #info {
-    padding: 50px 100px 40px 100px;
+    padding: 30px 50px 10px 50px;
 }
 
 #info p {

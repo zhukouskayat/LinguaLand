@@ -1,10 +1,10 @@
+/* Geometry */
 #banner h1,
 #book h1 {
-    margin: 50px 0px 50px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 #banner {
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,24 +12,22 @@
 }
 
 #banner-text {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 50px 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
 #banner button {
-    position: absolute;
-    bottom: 30px;
+    position: static;
+    margin-top: 30px;
     width: var(--width-form);
     height: var(--height-form);
     border-radius: var(--border-radius);
 }
 
 #banner-ill {
-    width: 380px;
-    height: 340px;
-    margin: 20px 0px 20px 0px;
+    display: none;
 }
 
 #book {
@@ -83,11 +81,10 @@
 .book-text-col1,
 .book-text-col2 {
     width: 49%;
-
 }
 
 #info {
-    padding: 50px 100px 40px 100px;
+    padding: 30px 100px 10px 100px;
 }
 
 #info p {

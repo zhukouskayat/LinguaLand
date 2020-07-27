@@ -1,6 +1,6 @@
 /* Geometry */
 #footer {
-    padding: 0px 100px 30px 100px;
+    padding: 0px 50px 30px 50px;
 }
 
 #footer-col {
@@ -8,7 +8,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 #footer h3 {
@@ -20,18 +20,25 @@
     margin-bottom: 10px;
 }
 
+.footer-col1 {
+    display: inline;
+    margin-right: 30px;
+}
+
 .footer-col2 {
-    flex-grow: 1;
-    margin-left: 30px;
+    display: inline;
+    margin-left: 0px;
     margin-right: 30px;
 }
 
 .footer-col3 {
+    display: block;
+    width: 100%;
     margin-top: 30px;
 }
 
 #footer select {
-    width: var(--width-form);
+    width: 100%;
     height: var(--height-form);
     margin-bottom: 20px;
     border: var(--border-select);
@@ -40,6 +47,7 @@
 
 .footer-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -59,26 +67,4 @@
 
 #footer select {
     border-color: var(--border-color-form);
-}
-
-/* Fonts */
-
-#footer {
-    font-size: var(--font-size-text);
-}
-
-#footer span {
-    font-size: 14px;
-}
-
-#footer select {
-    font-size: var(--font-size-select);
-}
-
-/* Hover */
-
-select:hover,
-#footer p:hover,
-#footer span:hover {
-    cursor: pointer
 }

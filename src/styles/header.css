@@ -1,13 +1,4 @@
 /* Geometry */
-
-@media screen and (max-width: 660px) {
-    #header {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-  }
-
 #logo-img {
     height: 50px;
     width: 55px;
